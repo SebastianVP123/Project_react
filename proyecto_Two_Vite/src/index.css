@@ -1,0 +1,43 @@
+main {
+  min-height: 300px;
+  padding: 1rem;
+  background-color: #20232a;
+  color: #61dafb;
+}
+
+img {
+  display: block;
+  max-width: 120px;
+  height: auto;
+  margin: 1rem auto;
+}
+
+header {
+  background: #20232a;
+  padding: 1rem;
+  color: #61dafb;
+  text-align: center;
+}
+
+footer {
+  background: #20232a;
+  padding: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+  color: #61dafb;
+}
+
+nav {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+nav a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #61dafb;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
