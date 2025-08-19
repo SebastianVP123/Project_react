@@ -1,0 +1,132 @@
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 2.5rem;
+}
+/* Menú principal en negro */
+.menu-item {
+  color: #111 !important;
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+/* App.css moderno y minimalista para proyecto_one */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(120deg, #f8fafc 0%, #e0e7ef 100%);
+  color: #23272f;
+  min-height: 100vh;
+}
+
+header {
+  background: #23272f;
+  color: #fff;
+  padding: 2rem 0 1rem 0;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 2.2rem;
+  font-weight: 700;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  padding: 1.2rem 0;
+  border-radius: 0 0 18px 18px;
+}
+
+nav a {
+  color: #23272f;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  transition: color 0.2s, border-bottom 0.2s;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
+}
+
+nav a:hover {
+  color: #0077ff;
+  border-bottom: 2px solid #0077ff;
+}
+
+main {
+  max-width: 900px;
+  margin: 2.5rem auto 3.5rem auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.09);
+  padding: 2.5rem 2rem;
+  min-height: 60vh;
+}
+
+footer {
+  background: #23272f;
+  color: #fff;
+  text-align: center;
+  padding: 1.2rem 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  box-shadow: 0 -2px 12px rgba(0,0,0,0.07);
+}
+
+h1, h2, h3 {
+  color: #111;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 700;
+}
+
+button {
+  background: linear-gradient(90deg, #0077ff 0%, #00c6ff 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.1rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.2s, transform 0.2s;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #005bb5 0%, #009ec3 100%);
+  transform: translateY(-2px) scale(1.04);
+}
+
+.card {
+  background: #f5f8fa;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  padding: 1.5rem 1.2rem;
+  margin-bottom: 1.5rem;
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 6px 24px rgba(0,119,255,0.10);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #e0e7ef;
+}
+::-webkit-scrollbar-thumb {
+  background: #b3c2d6;
+  border-radius: 8px;
+}

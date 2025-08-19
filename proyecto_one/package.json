@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "proyecto_one",
   "version": "0.1.0",
   "private": true,
@@ -10,7 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -36,20 +35,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-=======
-  "name": "project_react",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1"
->>>>>>> c117079773f597afb8522e297ed7e58ca5793313
   }
 }

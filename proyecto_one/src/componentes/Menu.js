@@ -2,9 +2,9 @@ const Menu = () => {
   return (
     <nav>
       <ul>
-        <li>Inicio</li>
-        <li>Contáctanos</li>
-        <li>Sobre nosotros</li>
+  <li className="menu-item">Inicio</li>
+  <li className="menu-item">Contáctanos</li>
+  <li className="menu-item">Sobre nosotros</li>
       </ul>
     </nav>
   )
