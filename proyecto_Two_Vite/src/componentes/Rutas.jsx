@@ -8,8 +8,9 @@ import Nosotros from '../pages/Nosotros';
 const Rutas = () => {
   return (
 <Routes>
-<Route path="/Inicio" element={<Inicio/>} />
-<Route path="/Nosotros" element={<Nosotros/>} />
+<Route path="/" element={<Inicio />} />
+<Route path="/Inicio" element={<Inicio />} />
+<Route path="/Nosotros" element={<Nosotros />} />
 </Routes>
   );
 }
